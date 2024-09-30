@@ -23,13 +23,23 @@ const Resume = () => {
       <section className="resume-section">
         <h2>Work Experience</h2>
         <div className="experience-item">
-          <h3>Company Name</h3>
-          <p>Position | Dates</p>
+          <h3>Oracle - Block Storage Management Plane Team</h3>
+          <p>Software Engineer | July 2021 - March 2023</p>
           <ul>
-            <li>Achievement 1</li>
-            <li>Achievement 2</li>
-            <li>Achievement 3</li>
-            {/* Add more achievements as needed */}
+            <li>Collaborated with cross-functional OCI teams of 20+ software engineers, applying Agile methodology to efficiently resolve issues and deliver solutions.</li>
+            <li>Executed, unit tested, and integration tested the functionality to facilitate streamlined copies and exportation of backup data of block volumes, cutting down 2+ hours of manual labor of customers.</li>
+            <li>Designed and implemented DropWizard Rest APIs with feature flags, enabling the establishment of optimization features in necessary applications, removing more than 500 lines of code in the codebase.</li>
+            <li>Revitalized source code dependencies and imports to preempt potential disruptions stemming from planned upgrades, alongside the implementation of Maven plugins to ensure adherence by engineers.</li>
+            <li>Monitored, mitigated, patched, and resolved 200+ critical issues in deployed cloud applications across 50+ regions, ensuring high reliability and availability.</li>
+          </ul>
+        </div>
+        <div className="experience-item">
+          <h3>STEMHive</h3>
+          <p>Software Engineer | February 2019 - January 2023</p>
+          <ul>
+            <li>Designed STEM lesson plans for 50+ secondary school students, exposing them to weekly hands-on projects with guidance from active professionals.</li>
+            <li>Directed a team of 6 engineers and STEM professionals to establish a React social website that showcases students’ awards as they attend workshops, as well as spending virtual currency for STEM tools, increasing motivation by 40% as measured in seasonal surveys.</li>
+            <li>Utilized Express framework to manage RESTful web services and middleware configurations, while ensuring security, domain setup, and database integration with Firebase.</li>
           </ul>
         </div>
         {/* Add more experience items as needed */}
@@ -38,12 +48,21 @@ const Resume = () => {
       <section className="resume-section">
         <h2>Projects</h2>
         <div className="project-item">
-          <h3>Project Name</h3>
-          <p>Description</p>
+          <h3>Wordle Multiplayer</h3>
+          <p>June 2024 - Present</p>
           <ul>
-            <li>Technology used</li>
-            <li>Role in the project</li>
-            <li>Outcome or impact</li>
+            <li>Developing a social mobile game (Android) inspired by Wordle, enabling real-time multiplayer competition and daily leaderboards for fastest completion times.</li>
+            <li>Utilizing Kotlin for native Android development and Spring Boot for robust backend services.</li>
+            <li>Leveraging Google Cloud Platform (GCP) to ensure scalability and performance, including MemoryStore for Redis
+            (leaderboards) and Cloud SQL (game data).</li>
+          </ul>
+        </div>
+        <div className="project-item">
+          <h3>CookingForDummies</h3>
+          <p>July 2023</p>
+          <ul>
+            <li>Created a user-friendly Flutter recipe sharing app, featuring a visually appealing gallery of recipes, complete with details on the cooking time as well as the owner of the post.</li>
+            <li>Implemented user authentication using AWS Cognito, data storage with AWS DynamoDB and S3,and AWS Lambda for serverless functions.</li>
           </ul>
         </div>
         {/* Add more project items as needed */}
@@ -52,7 +71,7 @@ const Resume = () => {
       <section className="resume-section">
         <h2>Certifications</h2>
         <ul>
-          <li>Certification Name | Issuer | Year</li>
+          <li>Google Cloud Platform Professional Cloud Architect | August 2024</li>
           {/* Add more certifications as needed */}
         </ul>
       </section>
@@ -60,8 +79,7 @@ const Resume = () => {
       <section className="resume-section">
         <h2>Education</h2>
         <div className="education-item">
-          <h3>Degree Name</h3>
-          <p>Major | University | Year</p>
+          <p>Computer Engineering | City College of New York | August 2016 - June 2021</p>
         </div>
         {/* Add more education items as needed */}
       </section>
@@ -69,8 +87,8 @@ const Resume = () => {
       <section className="resume-section">
         <h2>Affiliations</h2>
         <ul>
-          <li>Affiliation 1</li>
-          <li>Affiliation 2</li>
+          <li>Community Ambassador | Brilliant Black Minds @ Karat | 2024</li>
+          <li>Senator | National Society of Black Engineers | 2020 - 2021</li>
           {/* Add more affiliations as needed */}
         </ul>
       </section>

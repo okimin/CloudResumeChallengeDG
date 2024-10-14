@@ -1,15 +1,17 @@
     # The configuration for the `remote` backend.
-    terraform {
-      backend "remote" {
-        # The name of your Terraform Cloud organization.
-        organization = "portfolio-organization"
-
-        # The name of the Terraform Cloud workspace to store Terraform state files in.
-        workspaces {
-          name = "portfolio-workspace"
-        }
-      }
+   terraform {
+  required_providers {
+    google = {
+      source = "hashicorp/google"
     }
+  }
+}
+
+provider "google" {
+
+  project = "cloud-resume-production"
+ 
+}
 
     # An example resource that does nothing.
     resource "null_resource" "example" {

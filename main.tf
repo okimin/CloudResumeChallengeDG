@@ -13,12 +13,6 @@ provider "google" {
  
 }
 
-    # An example resource that does nothing.
-    resource "null_resource" "example" {
-      triggers = {
-        value = "A example resource that does nothing!"
-      }
-    }
 
    resource "google_storage_bucket" "portfolio-static-site" {
  name          = "okiportfolio"
